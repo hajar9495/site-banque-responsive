@@ -40,15 +40,65 @@
   </head>
   <body>
     <div class="container-fluid">
-      <!-- navbar -->
+      <!-- 1ere navbar -->
       <div class="row">
-        <div class="col-1 p-3 bg-body-tertiary">
+        <!-- partie gauche icon -->
+        <div
+          class="col-12 col-xs-1 col-sm-3 col-md-3 col-lg-2 col-xl-1 p-3 bg-warning"
+        >
           <img src="img/banque-icon.png" alt="icon de banque" width="100" />
         </div>
-        <div class="col-11">
+        <!-- partie de droite -->
+        <div
+          class="col-12 col-xs-11 col-sm-9 col-md-9 col-lg-10 col-xl-11 bg-success"
+        >
           <div class="row">
-            <nav class="navbar navbar-text navbar-expand-lg bg-body-tertiary">
-              <div class="col-">
+            <div class="col-3 bg-info">
+              <div class="btn-group form-control">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Vous etes ...
+                </button>
+                <ul class="dropdown-menu text-center">
+                  <li>Particulier</li>
+                  <li>Entreprises</li>
+                  <li>Autres</li>
+                </ul>
+              </div>
+            </div>
+            <div class="d-none d-sm-none d-md-block col-xs-9">
+              <div class="input-group rounded">
+                <input
+                  type="search"
+                  class="form-control rounded"
+                  placeholder="Rechercher une information, un produit, un renseignement..."
+                  aria-label="Search"
+                  aria-describedby="search-addon"
+                />
+                <span class="input-group-text border-0" id="search-addon">
+                  <i class="fas fa-search"></i>
+                </span>
+              </div>
+            </div>
+            <div class="col-3 col-sm-4 bg-danger">
+              <a href=""> <i class="fa-solid fa-comments p-1"></i>Contacter</a>
+            </div>
+            <div class="col-3 col-sm-4 bg-danger">
+              <a href=""> <i class="fa-solid fa-circle-user"></i>Compte</a>
+            </div>
+            <div class="col-3 col-sm-4 bg-danger">
+              <a href="">
+                <i class="fa-solid fa-lock p-1"></i>
+                Mon espace
+              </a>
+            </div>
+
+            <!-- <nav class="navbar navbar-text navbar-expand-lg bg-body-tertiary">
+              <div class="col bg-primary">
                 <div class="btn-group">
                   <button
                     class="btn dropdown-toggle"
@@ -56,7 +106,7 @@
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Vous etes un particulier
+                    Vous etes ...
                   </button>
                   <ul class="dropdown-menu text-center">
                     <li>Particulier</li>
@@ -65,7 +115,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-7 p-2">
+              <div class="d-none d-md-block col-md-7 p-2 bg-danger">
                 <div class="input-group rounded">
                   <input
                     type="search"
@@ -80,7 +130,7 @@
                 </div>
               </div>
               <div class="col p-3 text-light colLien">
-                <a href="" style="text-decoration: none; color: #ffffff">
+                <a href="">
                   <i class="fa-solid fa-comments p-1"></i>Contacter</a
                 >
               </div>
@@ -99,7 +149,7 @@
                   Mon espace</a
                 >
               </div>
-            </nav>
+            </nav> -->
             <!-- deuxieme navbar -->
             <!-- <nav
               class="navbar sticky-top fixed-top navbar-expand-lg bg-body-tertiary"
