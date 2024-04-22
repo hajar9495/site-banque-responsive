@@ -29,6 +29,12 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <!-- mdb script -->
+    <script
+      defer
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"
+    ></script>
     <!-- css  -->
     <link rel="stylesheet" href="style.css" />
     <!-- google font -->
@@ -49,27 +55,32 @@
           <img src="img/banque-icon.png" alt="icon de banque" width="100" />
         </div>
         <!-- partie de droite -->
+
         <div
           class="col-12 col-xs-11 col-sm-9 col-md-9 col-lg-10 col-xl-11 bg-success"
         >
           <div class="row">
-            <div class="col-3 bg-info">
-              <div class="btn-group form-control">
-                <button
-                  class="btn dropdown-toggle"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Vous etes ...
-                </button>
-                <ul class="dropdown-menu text-center">
-                  <li>Particulier</li>
-                  <li>Entreprises</li>
-                  <li>Autres</li>
-                </ul>
-              </div>
+            <!-- vous etes -->
+            <div
+              class="d-none d-sm-none d-md-block col-md-3 bg-info btn-group form-control"
+            >
+              <!-- <div class="btn-group form-control"> -->
+              <button
+                class="btn dropdown-toggle form-control"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Vous etes ...
+              </button>
+              <ul class="dropdown-menu text-center">
+                <li>Particulier</li>
+                <li>Entreprises</li>
+                <li>Autres</li>
+              </ul>
+              <!-- </div> -->
             </div>
+            <!-- bar de recherche -->
             <div class="d-none d-sm-none d-md-block col-xs-9">
               <div class="input-group rounded">
                 <input
@@ -84,18 +95,56 @@
                 </span>
               </div>
             </div>
-            <div class="col-3 col-sm-4 bg-danger">
+            <button
+              class="navbar-toggler text-end p-4"
+              type="button"
+              data-mdb-collapse-init
+              data-mdb-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-light shadow-3 p-4">
+                <button
+                  data-mdb-button-init
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-block border-bottom m-0"
+                >
+                  Link 1
+                </button>
+                <button
+                  data-mdb-button-init
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-block border-bottom m-0"
+                >
+                  Link 2
+                </button>
+                <button
+                  data-mdb-button-init
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-block m-0"
+                >
+                  Link 3
+                </button>
+              </div>
+            </div>
+
+            <!-- les 3 bouttons -->
+            <!-- <div class="col-4 col-sm-4 bg-danger">
               <a href=""> <i class="fa-solid fa-comments p-1"></i>Contacter</a>
             </div>
-            <div class="col-3 col-sm-4 bg-danger">
+            <div class="col-4 col-sm-4 bg-danger">
               <a href=""> <i class="fa-solid fa-circle-user"></i>Compte</a>
             </div>
-            <div class="col-3 col-sm-4 bg-danger">
+            <div class="col-4 col-sm-4 bg-danger">
               <a href="">
                 <i class="fa-solid fa-lock p-1"></i>
                 Mon espace
               </a>
-            </div>
+            </div> -->
 
             <!-- <nav class="navbar navbar-text navbar-expand-lg bg-body-tertiary">
               <div class="col bg-primary">
