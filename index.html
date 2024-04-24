@@ -61,7 +61,7 @@
           <div class="row">
             <!-- vous etes -->
             <div
-              class="d-none d-sm-none d-md-block col-md-4 col-lg-3 bg-info btn-group"
+              class="d-none d-sm-none d-md-block col-md-4 col-lg-2 bg-info btn-group"
             >
               <!-- <div class="btn-group form-control"> -->
               <button
@@ -80,7 +80,7 @@
               <!-- </div> -->
             </div>
             <!-- bar de recherche -->
-            <div class="d-none d-sm-none d-md-block col-md-8">
+            <div class="d-none d-sm-none d-md-block col-md-8 col-lg-6">
               <div class="input-group rounded">
                 <input
                   type="search"
@@ -94,9 +94,11 @@
                 </span>
               </div>
             </div>
+            <!-- au dessus de md 3 boutons -->
+
             <!-- bouton de navbar -->
             <button
-              class="navbar-toggler text-end p-4"
+              class="navbar-toggler text-end p-4 d-md-none"
               type="button"
               data-mdb-collapse-init
               data-mdb-target="#navbarToggleExternalContent"
@@ -107,7 +109,7 @@
               <i class="fas fa-bars"></i>
             </button>
             <!-- burger menu -->
-            <div class="collapse" id="navbarToggleExternalContent">
+            <div class="collapse d-md-none" id="navbarToggleExternalContent">
               <div class="row p-4">
                 <div class="col-4 col-sm-4 bg-danger">
                   <a href="">
@@ -146,74 +148,24 @@
                 </button> -->
               </div>
             </div>
-
-            <!-- les 3 bouttons -->
-            <!-- <div class="col-4 col-sm-4 bg-danger">
+            <!-- <div class="col p-3 text-light colLien">
               <a href=""> <i class="fa-solid fa-comments p-1"></i>Contacter</a>
             </div>
-            <div class="col-4 col-sm-4 bg-danger">
-              <a href=""> <i class="fa-solid fa-circle-user"></i>Compte</a>
+            <div
+              class="col p-3 text-light"
+              style="
+                background-color: rgb(136, 26, 49);
+                text-transform: uppercase;
+              "
+            >
+              <a href=""> son compte</a>
             </div>
-            <div class="col-4 col-sm-4 bg-danger">
+            <div class="col p-3 text-light colLien">
               <a href="">
                 <i class="fa-solid fa-lock p-1"></i>
-                Mon espace
-              </a>
-            </div> -->
-
-            <!-- <nav class="navbar navbar-text navbar-expand-lg bg-body-tertiary">
-              <div class="col bg-primary">
-                <div class="btn-group">
-                  <button
-                    class="btn dropdown-toggle"
-                    type="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Vous etes ...
-                  </button>
-                  <ul class="dropdown-menu text-center">
-                    <li>Particulier</li>
-                    <li>Entreprises</li>
-                    <li>Autres</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="d-none d-md-block col-md-7 p-2 bg-danger">
-                <div class="input-group rounded">
-                  <input
-                    type="search"
-                    class="form-control rounded"
-                    placeholder="Rechercher une information, un produit, un renseignement..."
-                    aria-label="Search"
-                    aria-describedby="search-addon"
-                  />
-                  <span class="input-group-text border-0" id="search-addon">
-                    <i class="fas fa-search"></i>
-                  </span>
-                </div>
-              </div>
-              <div class="col p-3 text-light colLien">
-                <a href="">
-                  <i class="fa-solid fa-comments p-1"></i>Contacter</a
-                >
-              </div>
-              <div
-                class="col p-3 text-light"
-                style="
-                  background-color: rgb(136, 26, 49);
-                  text-transform: uppercase;
-                "
+                Mon espace</a
               >
-                <a href=""> son compte</a>
-              </div>
-              <div class="col p-3 text-light colLien">
-                <a href="">
-                  <i class="fa-solid fa-lock p-1"></i>
-                  Mon espace</a
-                >
-              </div>
-            </nav> -->
+            </div> -->
             <!-- deuxieme navbar -->
             <!-- <nav
               class="navbar sticky-top fixed-top navbar-expand-lg bg-body-tertiary"
