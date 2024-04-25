@@ -46,7 +46,7 @@
   </head>
   <body>
     <div class="container-fluid">
-      <!-- 1ere navbar -->
+      <!-- navbar -->
       <div class="row">
         <!-- partie gauche icon -->
         <div
@@ -59,11 +59,9 @@
           class="col-12 col-xs-11 col-sm-9 col-md-9 col-lg-10 col-xl-11 bg-success"
         >
           <div class="row">
-            <!-- vous etes -->
             <div
-              class="d-none d-sm-none d-md-block col-md-4 col-lg-2 bg-info btn-group"
+              class="d-none d-sm-none d-md-block col-md-4 col-lg-3 bg-info btn-group"
             >
-              <!-- <div class="btn-group form-control"> -->
               <button
                 class="btn dropdown-toggle form-control"
                 type="button"
@@ -77,10 +75,10 @@
                 <li>Entreprises</li>
                 <li>Autres</li>
               </ul>
-              <!-- </div> -->
             </div>
-            <!-- bar de recherche -->
-            <div class="d-none d-sm-none d-md-block col-md-8 col-lg-6">
+            <div
+              class="d-none d-sm-none d-md-block col-md-8 col-lg-6 bg-secondary"
+            >
               <div class="input-group rounded">
                 <input
                   type="search"
@@ -94,11 +92,21 @@
                 </span>
               </div>
             </div>
-            <!-- au dessus de md 3 boutons -->
-
-            <!-- bouton de navbar -->
+            <div class="d-none d-lg-block col-lg-1 bg-danger">
+              <a href=""> <i class="fa-solid fa-comments p-1"></i>Contacter</a>
+            </div>
+            <div class="d-none d-lg-block col-lg-1 bg-danger">
+              <a href=""> <i class="fa-solid fa-circle-user"></i>Compte</a>
+            </div>
+            <div class="d-none d-lg-block col-lg-1 bg-danger">
+              <a href="">
+                <i class="fa-solid fa-lock p-1"></i>
+                Mon espace
+              </a>
+            </div>
+            <!-- burger menu -->
             <button
-              class="navbar-toggler text-end p-4 d-md-none"
+              class="navbar-toggler text-end p-4 d-lg-none"
               type="button"
               data-mdb-collapse-init
               data-mdb-target="#navbarToggleExternalContent"
@@ -108,8 +116,7 @@
             >
               <i class="fas fa-bars"></i>
             </button>
-            <!-- burger menu -->
-            <div class="collapse d-md-none" id="navbarToggleExternalContent">
+            <div class="collapse d-lg-none" id="navbarToggleExternalContent">
               <div class="row p-4">
                 <div class="col-4 col-sm-4 bg-danger">
                   <a href="">
@@ -125,129 +132,11 @@
                     Mon espace
                   </a>
                 </div>
-                <!-- <button
-                  data-mdb-button-init
-                  data-mdb-ripple-init
-                  class="btn btn-link btn-block border-bottom m-0"
-                >
-                  Link 1
-                </button>
-                <button
-                  data-mdb-button-init
-                  data-mdb-ripple-init
-                  class="btn btn-link btn-block border-bottom m-0"
-                >
-                  Link 2
-                </button>
-                <button
-                  data-mdb-button-init
-                  data-mdb-ripple-init
-                  class="btn btn-link btn-block m-0"
-                >
-                  Link 3
-                </button> -->
               </div>
             </div>
-            <!-- <div class="col p-3 text-light colLien">
-              <a href=""> <i class="fa-solid fa-comments p-1"></i>Contacter</a>
-            </div>
-            <div
-              class="col p-3 text-light"
-              style="
-                background-color: rgb(136, 26, 49);
-                text-transform: uppercase;
-              "
-            >
-              <a href=""> son compte</a>
-            </div>
-            <div class="col p-3 text-light colLien">
-              <a href="">
-                <i class="fa-solid fa-lock p-1"></i>
-                Mon espace</a
-              >
-            </div> -->
-            <!-- deuxieme navbar -->
-            <!-- <nav
-              class="navbar sticky-top fixed-top navbar-expand-lg bg-body-tertiary"
-            >
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      href="#"
-                      style="text-transform: uppercase"
-                      >link important</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      href="#"
-                      style="text-transform: uppercase"
-                      >another one</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      href="#"
-                      style="text-transform: uppercase"
-                      >banque</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      href="#"
-                      style="text-transform: uppercase"
-                      >Assurance</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      href="#"
-                      style="text-transform: uppercase"
-                      >institution</a
-                    >
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      style="text-transform: uppercase"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a
-                          class="dropdown-item"
-                          href="#"
-                          style="text-transform: uppercase"
-                          >Action</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Another action</a>
-                      </li>
-                      <li><hr class="dropdown-divider" /></li>
-                      <li>
-                        <a class="dropdown-item" href="#"
-                          >Something else here</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </nav> -->
           </div>
         </div>
+        <!-- 2eme partie de navbar -->
       </div>
       <!-- autre -->
       <div class="row">
