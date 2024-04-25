@@ -1,0 +1,18 @@
+/* font */
+/* @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"); */
+/* colors  */
+:root {
+  --red-light: rgb(182, 29, 55);
+  --red-medium: #b72a2a;
+  --red-dark: rgb(136, 26, 49);
+}
+
+.bg-red-light {
+  background-color: var(--red-light);
+}
+.bg-red-medium {
+  background-color: var(--red-medium);
+}
+.bg-red-dark {
+  background-color: var(--red-dark);
+}
