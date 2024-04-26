@@ -29,15 +29,16 @@ body {
     background-color: aquamarine;
   }
   .section-2 {
-    min-height: 95vh;
+    min-height: 100vh;
   }
 }
 /* section 2 */
 .section-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("img/paysage.jpg");
-  /* background-image: url("img/paysage.jpg"); */
   background-position: center;
   background-size: cover;
-  width: 100vw;
+  /* min-width: 100vw; */
+  /* min-height: 50vh; */
+  /* height: 50vh; */
 }
