@@ -40,7 +40,5 @@ body {
     url("img/paysage.jpg");
   background-position: center;
   background-size: cover;
-  /* min-width: 100vw; */
-  /* min-height: 50vh; */
-  /* height: 50vh; */
+  min-height: 20vh;
 }
