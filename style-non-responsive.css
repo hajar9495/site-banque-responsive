@@ -1,0 +1,52 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* colors  */
+:root {
+  --red-light: rgb(182, 29, 55);
+  --red-medium: #b72a2a;
+  --red-dark: rgb(128, 2, 37);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+/* section hero */
+/* icons fontawesome */
+
+.icon-section-hero {
+  font-size: 50px;
+  color: white;
+  background-color: var(--red-light);
+}
+.bg-red-light {
+  background-color: var(--red-light);
+}
+.bg-red-medium {
+  background-color: var(--red-medium);
+}
+.bg-red-dark {
+  background-color: var(--red-dark);
+}
+
+/* hero section */
+@media only screen and (max-width: 768px) {
+  /* Styles */
+  /* jusqua md */
+  .hero {
+    min-height: 100vh;
+    background-color: aquamarine;
+  }
+  .section-2 {
+    min-height: 100vh;
+  }
+}
+/* section 2 */
+.section-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/paysage.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 20vh;
+}
