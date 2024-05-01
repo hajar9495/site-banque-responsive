@@ -57,3 +57,8 @@ a {
   padding: 36px 0px;
   min-height: auto;
 }
+
+/* section 4 */
+#section-4 {
+  min-height: 50vh;
+}
