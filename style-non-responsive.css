@@ -16,6 +16,16 @@ a {
   text-decoration: none;
   color: black;
 }
+.bg-red-light {
+  background-color: var(--red-light);
+}
+.bg-red-medium {
+  background-color: var(--red-medium);
+}
+.bg-red-dark {
+  background-color: var(--red-dark);
+}
+
 /* section hero */
 /* icons fontawesome */
 
@@ -35,4 +45,15 @@ a {
   min-height: auto;
   padding: 36px 0px;
   /* height: 50vh; */
+}
+
+/* section 3 */
+#bg-img1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/ordinateur.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 36px 0px;
+  min-height: auto;
 }
