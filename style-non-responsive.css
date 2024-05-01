@@ -12,6 +12,10 @@ body {
   margin: 0 auto;
   padding: 0 auto;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 /* section hero */
 /* icons fontawesome */
 
@@ -20,33 +24,15 @@ body {
   color: white;
   background-color: var(--red-light);
 }
-.bg-red-light {
-  background-color: var(--red-light);
-}
-.bg-red-medium {
-  background-color: var(--red-medium);
-}
-.bg-red-dark {
-  background-color: var(--red-dark);
-}
 
-/* hero section */
-@media only screen and (max-width: 768px) {
-  /* Styles */
-  /* jusqua md */
-  .hero {
-    min-height: 100vh;
-    background-color: aquamarine;
-  }
-  .section-2 {
-    min-height: 100vh;
-  }
-}
 /* section 2 */
-.section-2 {
+#bg-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("img/paysage.jpg");
-  background-position: center;
   background-size: cover;
-  min-height: 20vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: auto;
+  padding: 36px 0px;
+  /* height: 50vh; */
 }
