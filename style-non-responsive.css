@@ -62,3 +62,18 @@ a {
 #section-4 {
   min-height: 50vh;
 }
+#circle {
+  background: var(--red-medium);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  opacity: 20%;
+}
+.picto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+}
