@@ -44,7 +44,7 @@ a {
   background-repeat: no-repeat;
   min-height: auto;
   padding: 36px 0px;
-  /* height: 50vh; */
+  min-height: 50vh;
 }
 
 /* section 3 */
@@ -55,7 +55,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   padding: 36px 0px;
-  min-height: auto;
+  min-height: 45vh;
 }
 
 /* section 4 */
