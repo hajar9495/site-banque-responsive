@@ -12,6 +12,10 @@ body {
   margin: 0 auto;
   padding: 0 auto;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 .bg-red-light {
   background-color: var(--red-light);
 }
@@ -22,23 +26,59 @@ body {
   background-color: var(--red-dark);
 }
 
-/* hero section */
-@media only screen and (max-width: 768px) {
-  /* Styles */
-  /* jusqua md */
-  .hero {
-    min-height: 100vh;
-    background-color: aquamarine;
-  }
-  .section-2 {
-    min-height: 100vh;
-  }
+/* section hero */
+/* icons fontawesome */
+
+.icon-section-hero {
+  font-size: 50px;
+  color: white;
+  background-color: var(--red-light);
 }
+
 /* section 2 */
-.section-2 {
+#bg-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("img/paysage.jpg");
-  background-position: center;
   background-size: cover;
-  min-height: 20vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: auto;
+  padding: 36px 0px;
+  min-height: 50vh;
+}
+
+/* section 3 */
+#bg-img1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/ordinateur.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 36px 0px;
+  min-height: 45vh;
+}
+
+/* section 4 */
+#section-4 {
+  min-height: 50vh;
+}
+#circle {
+  background: var(--red-medium);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  opacity: 20%;
+}
+.picto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+}
+
+/* section 5 */
+#section-5 {
+  min-height: 60vh;
 }

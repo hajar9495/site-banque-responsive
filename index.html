@@ -2,13 +2,9 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="site de banque bootstrap responsive" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="site exemple de banque - technologies : bootstrap, fontawesome"
-    />
-    <!-- fontawesome -->
+    <!-- fontawesome icon -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -16,39 +12,40 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- cdn bootstrap et script -->
+    <!-- bootstrap css -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <!-- bootstrap script -->
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+
     <!-- mdb script -->
     <script
       defer
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"
     ></script>
-    <!-- css  -->
+    <!-- style css -->
     <link rel="stylesheet" href="style.css" />
-    <!-- google font -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+
+    <meta
+      name="description"
+      content="site de banque exemple réalisé avex bootstrap en responsive design"
     />
     <title>Site banque exemple - MENNAI Hajar</title>
   </head>
   <body>
     <div class="container-fluid">
-      <!-- header -->
       <header>
-        <div class="row bg-body-tertiary">
+        <div class="row">
           <!-- partie gauche icon -->
           <div
             class="col-12 col-xs-1 col-sm-3 col-md-3 col-lg-2 col-xl-1 p-3 text-center"
@@ -248,190 +245,221 @@
         </div>
       </header>
       <main>
-        <!-- premiere section de page -->
-        <section>
-          <div class="row hero h-100" style="height: 75vh; width: 100vw">
-            <!-- partie carousel -->
-            <div
-              id="carouselExampleAutoplaying"
-              class="col-12 col-sm-12 col-md-6 carousel slide bg-success"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="img/amis.jpg" class="d-block w-100" alt="amis" />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="img/couchedeSoleil.jpg"
-                    class="d-block w-100"
-                    alt="couche de soleil"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="img/entreaide.jpg"
-                    class="d-block w-100"
-                    alt="entreaide"
-                  />
+        <!-- hero section -->
+        <div class="row" style="width: 100vw">
+          <!-- gauche -->
+          <div
+            id="carouselExampleAutoplaying"
+            class="col-12 col-sm-12 col-md-6 carousel slide text-dark"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/amis.jpg" class="d-block w-100" alt="amis" />
+                <div
+                  class="carousel-caption d-none d-md-block bg-light text-dark"
+                >
+                  <h5>First slide label</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                  <button type="button" class="btn btn-danger">
+                    voir davantage
+                  </button>
                 </div>
               </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="carousel-item">
+                <img
+                  src="img/couchedeSoleil.jpg"
+                  class="d-block w-100"
+                  alt="couche de soleil"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block bg-light text-dark"
+                >
+                  <h5>First slide label</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                  <button type="button" class="btn btn-danger">
+                    voir davantage
+                  </button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/entreaide.jpg"
+                  class="d-block w-100"
+                  alt="entreaide"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block bg-light text-dark"
+                >
+                  <h5>First slide label</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                  <button type="button" class="btn btn-danger">
+                    voir davantage
+                  </button>
+                </div>
+              </div>
             </div>
-            <!-- partie droite -->
-            <div class="col-12 col-sm-12 col-md-6">
-              <div class="row h-100">
-                <div class="col-12 bg-warning">
-                  <h1>TEXT HERE</h1>
-                  <h2>text here and here something here and there....</h2>
-                  <a href=""
-                    >Lorem ipsum dolor sit amet consectetur adipisicing elit....
-                  </a>
-                </div>
-                <div class="col-12 col-sm-6 bg-success">
-                  <i class="fa-solid fa-hands-holding-circle square"></i>
-                  <p>premiere categorie</p>
-                </div>
-                <div class="col-12 col-sm-6 bg-danger">
-                  <i class="fa-solid fa-car-burst square"></i>
-                  <p>premiere categorie</p>
-                </div>
-                <div class="col-12 col-sm-6 bg-warning">
-                  <i class="fa-solid fa-house square"></i>
-                  <p>premiere categorie</p>
-                </div>
-                <div class="col-12 col-sm-6 bg-secondary">
-                  <i class="fa-solid fa-house-crack square"></i>
-                  <p>premiere categorie</p>
-                </div>
-                <div class="col-12 col-sm-6 bg-info">
-                  <i class="fa-solid fa-building-columns square"></i>
-                  <p>premiere categorie</p>
-                </div>
-                <div class="col-12 col-sm-6 bg-tertiary">
-                  <i class="fa-solid fa-car square"></i>
-                  <p>premiere categorie</p>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- droite -->
+          <div class="col-12 col-sm-12 col-md-6">
+            <div class="container text-center">
+              <h3>TEXT HERE</h3>
+              <h5 class="display-6" style="font-weight: 00">
+                text here and here something here and there....
+              </h5>
+              <a href="" style="color: rgb(156, 34, 36)"
+                ><p style="font-size: large">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit....
+                </p></a
+              >
+              <div class="container">
+                <div
+                  class="row gy-2 d-flex justify-content-center text-center gap-3"
+                >
+                  <div class="col-11 col-md-5 p-3 icon bg-body-tertiary">
+                    <a href="" class="icon">
+                      <div class="row">
+                        <div class="col-2 p-2">
+                          <i
+                            class="fa-solid fa-hands-holding-circle icon-section-hero p-2"
+                          ></i>
+                        </div>
+                        <div class="col-10 p-2 p-2">
+                          <h6>Title about something</h6>
+                          <p class="d-none d-sm-block">
+                            some text here and there
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-11 col-md-5 p-3 icon bg-body-tertiary">
+                    <a href="" class="icon"
+                      ><div class="row">
+                        <div class="col-2 p-2">
+                          <i
+                            class="fa-solid fa-car-burst icon-section-hero p-2"
+                          ></i>
+                        </div>
+                        <div class="col-10 p-2">
+                          <h6>Title about something</h6>
+                          <p class="d-none d-sm-block">
+                            some text here and there
+                          </p>
+                        </div>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-11 col-md-5 p-3 icon bg-body-tertiary">
+                    <a href="" class="icon"
+                      ><div class="row">
+                        <div class="col-2 p-2">
+                          <i
+                            class="fa-solid fa-house icon-section-hero p-2"
+                          ></i>
+                        </div>
+                        <div class="col-10 p-2">
+                          <h6>Title about something</h6>
+                          some text here and there
+                        </div>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-11 col-md-5 p-3 icon bg-body-tertiary">
+                    <a href="" class="icon"
+                      ><div class="row">
+                        <div class="col-2 p-2">
+                          <i
+                            class="fa-solid fa-house-crack icon-section-hero p-2"
+                          ></i>
+                        </div>
+                        <div class="col-10 p-2">
+                          <h6>Title about something</h6>
+                          some text here and there
+                        </div>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-11 col-md-5 p-3 icon bg-body-tertiary">
+                    <a href="" class="icon"
+                      ><div class="row">
+                        <div class="col-2 p-2">
+                          <i
+                            class="fa-solid fa-building-columns icon-section-hero p-2"
+                          ></i>
+                        </div>
+                        <div class="col-10 p-2">
+                          <h6>Title about something</h6>
+                          some text here and there
+                        </div>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-11 col-md-5 p-3 icon bg-body-tertiary">
+                    <a href="" class="icon"
+                      ><div class="row">
+                        <div class="col-2 p-2">
+                          <i class="fa-solid fa-car icon-section-hero p-2"></i>
+                        </div>
+                        <div class="col-10 p-2">
+                          <h6>Title about something</h6>
+                          some text here and there
+                        </div>
+                      </div></a
+                    >
+                  </div>
                 </div>
               </div>
-              <!-- </div> -->
             </div>
           </div>
-        </section>
-        <section>
-          <!-- partie section 2 -->
-          <!-- <div class="row section-2">
-            <h2 class="text-center text-light">
-              VOILA C'EST UN TITRE IMPORTANT
-            </h2>
-            <div
-              class="row w-75 bg-danger mx-auto justify-content-center d-flex"
-            >
-              <div class="col-11 col-sm-12 col-md-6 col-lg-3 m-3 bg-warning">
-                <p>colonne 1</p>
-              </div>
-              <div class="col-11 col-sm-12 col-md-6 col-lg-3 m-3 bg-warning">
-                <p>colonne 1</p>
-              </div>
-              <div class="col-11 col-sm-12 col-md-6 col-lg-3 m-3 bg-warning">
-                <p>colonne 1</p>
-              </div>
-              <div class="col-11 col-sm-12 col-md-6 col-lg-3 m-3 bg-warning">
-                <p>colonne 1</p>
-              </div>
-              <div class="col-11 col-sm-12 col-md-6 col-lg-3 m-3 bg-warning">
-                <p>colonne 1</p>
-              </div>
-              <div class="col-11 col-sm-12 col-md-6 col-lg-3 m-3 bg-warning">
-                <p>colonne 1</p>
-              </div>
-            </div>
-          </div> -->
-        </section>
-        <section class="row">
-          <div class="section-2 py-2">
-            <h2 class="text-center text-light">
-              VOILA C'EST UN TITRE IMPORTANT
-            </h2>
-            <div
-              class="row w-75 bg-danger mx-auto justify-content-center d-flex"
-            >
-              <div class="col-11 col-sm-12 col-md-6 col-lg-3 m-3 bg-warning">
-                <p>colonne 1</p>
-              </div>
-              <div class="col-11 col-sm-12 col-md-6 col-lg-3 m-3 bg-warning">
-                <p>colonne 1</p>
-              </div>
-              <div class="col-11 col-sm-12 col-md-6 col-lg-3 m-3 bg-warning">
-                <p>colonne 1</p>
-              </div>
-              <div class="col-11 col-sm-12 col-md-6 col-lg-3 m-3 bg-warning">
-                <p>colonne 1</p>
-              </div>
-              <div class="col-11 col-sm-12 col-md-6 col-lg-3 m-3 bg-warning">
-                <p>colonne 1</p>
-              </div>
-              <div class="col-11 col-sm-12 col-md-6 col-lg-3 m-3 bg-warning">
-                <p>colonne 1</p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <!-- <div class="row">
-        <div class="col-12 col-sm-6 col-md-8">
-          <p>partie avec image a gauche</p>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 bg-danger">
-          <p>carousel avec des citations</p>
-        </div>
-      </div> -->
-
-      <!-- <div>
+        <!-- 2e section -->
         <div class="row">
           <div id="bg-img">
-            <br />
-            <h1
-              class="text-center"
-              style="color: white; text-transform: uppercase"
-            >
+            <h1 class="text-center text-uppercase text-light">
               voila le blabla c'est un titre important
             </h1>
-            <br />
             <div class="container">
               <div
                 class="row g-2 d-flex justify-content-center text-start gap-3"
               >
-                <div class="col-3 p-4 text-danger blabla">
+                <div class="col-11 col-sm-5 col-md-3 p-4 bg-light text-danger">
                   <a href="">
                     <i class="fa-solid fa-lock p-1" style="color: #951d1d"></i>
                     Mon espace</a
                   >
                 </div>
-                <div class="col-3 p-4 text-danger blabla">
+                <div class="col-11 col-sm-5 col-md-3 p-4 bg-light text-danger">
                   <a href="">
                     <i
                       class="fa-solid fa-building-columns p-1"
@@ -440,13 +468,13 @@
                     Ma banque</a
                   >
                 </div>
-                <div class="col-3 p-4 text-danger blabla">
+                <div class="col-11 col-sm-5 col-md-3 p-4 bg-light text-danger">
                   <a href="">
                     <i class="fa-solid fa-house p-1" style="color: #951d1d"></i>
                     Mon logement</a
                   >
                 </div>
-                <div class="col-3 p-4 text-danger blabla">
+                <div class="col-11 col-sm-5 col-md-3 p-4 bg-light text-danger">
                   <a href="">
                     <i
                       class="fa-solid fa-hands-holding-circle p-1"
@@ -455,7 +483,7 @@
                     Mon assurance</a
                   >
                 </div>
-                <div class="col-3 p-4 text-danger blabla">
+                <div class="col-11 col-sm-5 col-md-3 p-4 bg-light text-danger">
                   <a href="">
                     <i
                       class="fa-solid fa-dollar-sign p-1"
@@ -464,7 +492,7 @@
                     Mon argent</a
                   >
                 </div>
-                <div class="col-3 p-4 text-danger blabla">
+                <div class="col-11 col-sm-5 col-md-3 p-4 bg-light text-danger">
                   <a href="">
                     <i
                       class="fa-solid fa-hand-holding-heart p-1"
@@ -473,7 +501,7 @@
                     Mon patrimoine</a
                   >
                 </div>
-                <div class="col-3 p-4 text-danger blabla">
+                <div class="col-11 col-sm-5 col-md-3 p-4 bg-light text-danger">
                   <a href="">
                     <i
                       class="fa-solid fa-people-roof p-1"
@@ -482,7 +510,7 @@
                     Ma vie de famille</a
                   >
                 </div>
-                <div class="col-3 p-4 text-danger blabla">
+                <div class="col-11 col-sm-5 col-md-3 p-4 bg-light text-danger">
                   <a href="">
                     <i
                       class="fa-solid fa-briefcase p-1"
@@ -491,7 +519,7 @@
                     Ma vie au travail</a
                   >
                 </div>
-                <div class="col-3 p-4 text-danger blabla">
+                <div class="col-11 col-sm-5 col-md-3 p-4 bg-light text-danger">
                   <a href="">
                     <i
                       class="fa-solid fa-hand-holding-medical p-1"
@@ -504,460 +532,461 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid">
-          <div class="row row-cols-2">
-            <div class="col-8" id="bg-img1">
-              <div>
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col">
-                      <h1
-                        class="display-5"
-                        style="color: rgb(255, 255, 255); font-weight: bold"
-                      >
-                        Something important again
-                      </h1>
-                      <br />
-                      <h2 class="display-5 text-center text-light">
-                        "quam porro deserunt ea facilis cumque nihil nostrum?
-                        Incidunt magnam"
-                      </h2>
-                    </div>
+        <!-- 3e section -->
+        <div class="row row-cols-2">
+          <div class="col-12 col-md-6 col-lg-8" id="bg-img1">
+            <div>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col">
+                    <h1
+                      class="display-5"
+                      style="color: rgb(255, 255, 255); font-weight: bold"
+                    >
+                      Something important again
+                    </h1>
+                    <br />
+                    <h2 class="display-5 text-center text-light">
+                      "quam porro deserunt ea facilis cumque nihil nostrum?
+                      Incidunt magnam"
+                    </h2>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-4" id="monCarousel">
-              <div
-                id="carouselExampleSlidesOnly"
-                class="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 bg-red-medium" id="monCarousel">
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active p-5">
+                  <span
+                    class="material-symbols-outlined d-flex justify-content-center text-light"
+                  >
+                    counter_1
+                  </span>
+                  <br />
+                  <p style="color: #ffffff; text-align: justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit minima doloremque dolorum voluptates nihil
+                    labore porro earum sunt repudiandae impedit dolorem culpa
+                    debitis, repellat temporibus animi aut voluptatem fugiat?
+                    Rerum!
+                  </p>
+                  <div class="d-flex justify-content-center">
+                    <button
+                      type="button"
+                      class="btn btn-light d-flex justify-content-center"
+                    >
+                      En savoir plus
+                    </button>
+                  </div>
+                  <br /><br />
+                  <br />
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active p-5">
-                    <span
-                      class="material-symbols-outlined d-flex justify-content-center text-light"
+                <div class="carousel-item p-5">
+                  <span
+                    class="material-symbols-outlined d-flex justify-content-center text-light"
+                  >
+                    counter_2
+                  </span>
+                  <br />
+                  <p style="color: #ffffff; text-align: justify">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Sit recusandae, hic quia error ducimus esse nulla veritatis
+                    debitis temporibus quaerat eos eveniet quam labore nemo
+                    doloribus similique tenetur placeat qui.
+                  </p>
+                  <div class="d-flex justify-content-center">
+                    <button
+                      type="button"
+                      class="btn btn-light d-flex justify-content-center"
                     >
-                      counter_1
-                    </span>
-                    <br />
-                    <p style="color: #ffffff; text-align: justify">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Reprehenderit minima doloremque dolorum voluptates nihil
-                      labore porro earum sunt repudiandae impedit dolorem culpa
-                      debitis, repellat temporibus animi aut voluptatem fugiat?
-                      Rerum!
-                    </p>
-                    <div class="d-flex justify-content-center">
-                      <button
-                        type="button"
-                        class="btn btn-light d-flex justify-content-center"
-                      >
-                        En savoir plus
-                      </button>
-                    </div>
-                    <br /><br />
-                    <br />
+                      En savoir plus
+                    </button>
                   </div>
-                  <div class="carousel-item p-5">
-                    <span
-                      class="material-symbols-outlined d-flex justify-content-center text-light"
+                  <br /><br />
+                  <br />
+                </div>
+                <div class="carousel-item p-5">
+                  <span
+                    class="material-symbols-outlined d-flex justify-content-center text-light"
+                  >
+                    counter_3
+                  </span>
+                  <br />
+                  <p style="color: #ffffff; text-align: justify">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Aliquid illum, natus adipisci dicta debitis officiis odit
+                    aperiam alias deleniti laudantium illo ducimus eum
+                    doloremque ipsum ipsa eligendi. Quod, nihil corrupti.
+                  </p>
+                  <div class="d-flex justify-content-center">
+                    <button
+                      type="button"
+                      class="btn btn-light d-flex justify-content-center"
                     >
-                      counter_2
-                    </span>
-                    <br />
-                    <p style="color: #ffffff; text-align: justify">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Sit recusandae, hic quia error ducimus esse nulla
-                      veritatis debitis temporibus quaerat eos eveniet quam
-                      labore nemo doloribus similique tenetur placeat qui.
-                    </p>
-                    <div class="d-flex justify-content-center">
-                      <button
-                        type="button"
-                        class="btn btn-light d-flex justify-content-center"
-                      >
-                        En savoir plus
-                      </button>
-                    </div>
-                    <br /><br />
-                    <br />
+                      En savoir plus
+                    </button>
                   </div>
-                  <div class="carousel-item p-5">
-                    <span
-                      class="material-symbols-outlined d-flex justify-content-center text-light"
-                    >
-                      counter_3
-                    </span>
-                    <br />
-                    <p style="color: #ffffff; text-align: justify">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Aliquid illum, natus adipisci dicta debitis officiis odit
-                      aperiam alias deleniti laudantium illo ducimus eum
-                      doloremque ipsum ipsa eligendi. Quod, nihil corrupti.
-                    </p>
-                    <div class="d-flex justify-content-center">
-                      <button
-                        type="button"
-                        class="btn btn-light d-flex justify-content-center"
-                      >
-                        En savoir plus
-                      </button>
-                    </div>
-                    <br /><br />
-                    <br />
-                  </div>
+                  <br /><br />
+                  <br />
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="container-fluid" id="partie">
-          <br />
-          <h1 style="text-align: center">Gros titre</h1>
-          <br />
-          <br />
-          <div class="row grid gap-3 text-center justify-content-center">
-            <div class="col-3">
-              <div class="card">
-                <span id="circle" class="picto"
-                  ><i class="fa-solid fa-user-shield" style="color: #ffffff"></i
-                ></span>
+        <!-- partie 4 -->
+        <div
+          class="row grid text-center justify-content-center py-5"
+          id="section-4"
+        >
+          <h1 class="text-center pt-3">Gros titre</h1>
+          <div class="col-12 col-sm-11 col-md-5 col-lg-3">
+            <div class="card border border-0">
+              <span id="circle" class="picto"
+                ><i class="fa-solid fa-user-shield"></i
+              ></span>
 
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="card">
-                <span id="circle" class="picto"
-                  ><i
-                    class="fa-solid fa-people-group"
-                    style="color: #ffffff"
-                  ></i
-                ></span>
-
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="card">
-                <span id="circle" class="picto"
-                  ><i
-                    class="fa-solid fa-hand-holding-dollar"
-                    style="color: #ffffff"
-                  ></i
-                ></span>
-
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
-          <br />
-          <div class="d-flex justify-content-center">
-            <button type="button" class="btn btn-danger">
+          <div class="col-12 col-sm-11 col-md-5 col-lg-3">
+            <div class="card border border-0">
+              <span id="circle" class="picto"
+                ><i class="fa-solid fa-people-group"></i
+              ></span>
+
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-11 col-md-5 col-lg-3">
+            <div class="card border border-0">
+              <span id="circle" class="picto"
+                ><i class="fa-solid fa-hand-holding-dollar"></i
+              ></span>
+
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="justify-content-center">
+            <button type="button" class="btn bg-red-medium text-light">
               voila un bouton super cool
             </button>
           </div>
         </div>
-        <div class="container-fluid bg-body-tertiary" id="partie2">
-          <br />
-          <h4 class="text-center">Titre principal</h4>
-          <br />
-          <div class="row row-cols-3 d-flex justify-content-center">
-            <div class="col-4">
-              <div class="card cardBas">
-                <img
-                  src="img/houseInterieur.jpg"
-                  class="card-img-top"
-                  alt="..."
-                  style="width: auto; height: 200px; object-fit: cover"
-                />
 
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Debitis nisi placeat incidunt error amet voluptate veniam,
-                    ut quisquam numquam, impedit ullam iste eos rerum vitae
-                    inventore obcaecati accusamus temporibus aliquam.
-                  </p>
-                  <div class="text-end">
-                    <a href="" style="color: #951d1d">lire la suite</a>
+        <!-- partie 5 -->
+        <div class="row py-5 px-3 bg-body-tertiary" id="section-5">
+          <h4 class="text-center pb-3">Titre principal</h4>
+          <div class="container-fluid">
+            <div
+              class="row row-cols-1 row-cols-md-2 row-cols-xl-3 d-flex justify-content-center gy-4"
+            >
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="img/houseInterieur.jpg"
+                    class="card-img-top object-fit-cover"
+                    alt="image de maison"
+                    style="height: 200px"
+                  />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nobis architecto error id, iure iusto rem est, eum
+                      perferendis ex quis dolores expedita odit incidunt autem!
+                      Dignissimos iusto, molestias suscipit at, neque aut
+                      incidunt voluptate accusamus eaque reprehenderit quod
+                      praesentium? Neque laborum magnam, corporis cumque
+                      nesciunt iure ea corrupti dolores repellendus.
+                    </p>
+                    <div class="text-end">
+                      <a href="" style="color: #951d1d">lire la suite</a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-4">
-              <div class="card cardBas">
-                <img
-                  src="img/littleHouse.jpg"
-                  class="card-img-top"
-                  alt="..."
-                  style="width: auto; height: 200px; object-fit: cover"
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
-                    neque dolores iure consequatur illo exercitationem velit
-                    necessitatibus ea vero dignissimos. Similique obcaecati
-                    sapiente voluptatem voluptatibus aspernatur nostrum beatae
-                    consequatur tempora.
-                  </p>
-                  <div class="text-end">
-                    <a href="" style="color: #951d1d">lire la suite</a>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="img/littleHouse.jpg"
+                    class="card-img-top object-fit-cover"
+                    alt="maison miniature"
+                    style="height: 200px"
+                  />
+                  <div class="card-body">
+                    <p class="card-text text-center">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nobis architecto error id, iure iusto rem est, eum
+                      perferendis ex quis dolores expedita odit incidunt autem!
+                      Dignissimos iusto, molestias suscipit at, neque aut
+                      incidunt voluptate accusamus eaque reprehenderit quod
+                      praesentium? Neque laborum magnam, corporis cumque
+                      nesciunt iure ea corrupti dolores repellendus.
+                    </p>
+                    <div class="text-end">
+                      <a href="" style="color: #951d1d">lire la suite</a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-4">
-              <div class="card cardBas">
-                <img
-                  src="img/discussion.jpg"
-                  class="card-img-top"
-                  alt="..."
-                  style="width: auto; height: 200px; object-fit: cover"
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Reiciendis provident molestiae, doloremque officia
-                    necessitatibus similique et asperiores excepturi eaque
-                    eligendi quae adipisci cumque porro tenetur error eveniet
-                    culpa dicta repellendus.
-                  </p>
-                  <div class="text-end">
-                    <a href="" style="color: #951d1d">lire la suite</a>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="img/discussion.jpg"
+                    class="card-img-top object-fit-cover"
+                    alt="discussion"
+                    style="height: 200px"
+                  />
+                  <div class="card-body">
+                    <p class="card-text text-center">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nobis architecto error id, iure iusto rem est, eum
+                      perferendis ex quis dolores expedita odit incidunt autem!
+                      Dignissimos iusto, molestias suscipit at, neque aut
+                      incidunt voluptate accusamus eaque reprehenderit quod
+                      praesentium? Neque laborum magnam, corporis cumque
+                      nesciunt iure ea corrupti dolores repellendus.
+                    </p>
+                    <div class="text-end">
+                      <a href="" style="color: #951d1d">lire la suite</a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="container-fluid bg-body-tertiary" id="partie3">
-          <div class="row grid gap-3 text-center justify-content-center">
-            <div class="col">
-              <div class="card bg-body-tertiary">
-                <span class="loca">
-                  <i class="fa-solid fa-location-dot" style="color: #951d1d"></i
-                ></span>
+        <!-- partie 6 -->
+        <div class="row bg-body-tertiary px-3 py-5">
+          <div class="container-fluid">
+            <div
+              class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-3 text-center d-flex justify-content-center"
+            >
+              <div class="col">
+                <div class="card bg-body-tertiary border border-0">
+                  <span class="fs-1">
+                    <i
+                      class="fa-solid fa-location-dot"
+                      style="color: #951d1d"
+                    ></i
+                  ></span>
 
-                <div class="card-body">
-                  <h6 style="text-transform: uppercase">localisation</h6>
-                  <p class="card-text">
-                    Some quick example text to build on the card
-                  </p>
-                  <a href="" style="color: #951d1d">Nous retrouver</a>
+                  <div class="card-body">
+                    <h6 style="text-transform: uppercase">localisation</h6>
+                    <p class="card-text">
+                      Some quick example text to build on the card
+                    </p>
+                    <a href="" style="color: #951d1d">Nous retrouver</a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card bg-body-tertiary">
-                <span class="loca"
-                  ><i
-                    class="fa-solid fa-phone-volume"
-                    style="color: #951d1d"
-                  ></i
-                ></span>
+              <div class="col">
+                <div class="card bg-body-tertiary border border-0">
+                  <span class="fs-1"
+                    ><i
+                      class="fa-solid fa-phone-volume"
+                      style="color: #951d1d"
+                    ></i
+                  ></span>
 
-                <div class="card-body">
-                  <h6 style="text-transform: uppercase">Nos coordonnées</h6>
-                  <p class="card-text">
-                    Some quick example text to build on the card
-                  </p>
-                  <a href="" style="color: #951d1d">Nous Contacter</a>
+                  <div class="card-body">
+                    <h6 style="text-transform: uppercase">Nos coordonnées</h6>
+                    <p class="card-text">
+                      Some quick example text to build on the card
+                    </p>
+                    <a href="" style="color: #951d1d">Nous Contacter</a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card bg-body-tertiary">
-                <span class="loca">
-                  <i
-                    class="fa-solid fa-mobile-screen-button"
-                    style="color: #951d1d"
-                  ></i
-                ></span>
+              <div class="col">
+                <div class="card bg-body-tertiary border border-0">
+                  <span class="fs-1">
+                    <i
+                      class="fa-solid fa-mobile-screen-button"
+                      style="color: #951d1d"
+                    ></i
+                  ></span>
 
-                <div class="card-body">
-                  <h6 style="text-transform: uppercase">Nos applicatifs</h6>
-                  <p class="card-text">
-                    Some quick example text to build on the card
-                  </p>
-                  <a href="" style="color: #951d1d">Nos applications</a>
+                  <div class="card-body">
+                    <h6 style="text-transform: uppercase">Nos applicatifs</h6>
+                    <p class="card-text">
+                      Some quick example text to build on the card
+                    </p>
+                    <a href="" style="color: #951d1d">Nos applications</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div> -->
+      </main>
+
       <!-- footer -->
-      <!-- <footer class="bg-dark text-center text-white">
-        <div class="container p-4">
-          <section class="mb-4">
-            <a
-              class="btn btn-outline-dark btn-light btn-floating m-1"
-              href="#"
-              role="button"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a
-              class="btn btn-outline-dark btn-light btn-floating m-1"
-              href="#"
-              role="button"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a
-              class="btn btn-outline-dark btn-light btn-floating m-1"
-              href="#"
-              role="button"
-              ><i class="fab fa-google"></i></a
-            ><a
-              class="btn btn-outline-dark btn-light btn-floating m-1"
-              href="#"
-              role="button"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </section>
-          <section class="">
-            <div class="row">
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase text-start">Links</h5>
+      <div class="row">
+        <footer class="bg-dark text-center text-white">
+          <div class="container p-4">
+            <section class="mb-4">
+              <a
+                class="btn btn-outline-dark btn-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-outline-dark btn-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-outline-dark btn-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fab fa-google"></i></a
+              ><a
+                class="btn btn-outline-dark btn-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </section>
+            <section class="">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase text-start">Links</h5>
 
-                <ul class="list-unstyled mb-0 text-start">
-                  <li>
-                    <a href="#" class="text-white">Earum iure maxime </a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-white">nihil eveniet </a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-white"
-                      >id itaque deserunt adipisci</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="text-white">ipsa eligendi quia</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase text-start">Links</h5>
+                  <ul class="list-unstyled mb-0 text-start">
+                    <li>
+                      <a href="#!" class="text-white">Earum iure maxime </a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">nihil eveniet </a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white"
+                        >id itaque deserunt adipisci</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">ipsa eligendi quia</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase text-start">Links</h5>
 
-                <ul class="list-unstyled mb-0 text-start">
-                  <li>
-                    <a href="#" class="text-white">Earum iure maxime </a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-white">nihil eveniet </a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-white"
-                      >id itaque deserunt adipisci</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="text-white">ipsa eligendi quia</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase text-start">Links</h5>
+                  <ul class="list-unstyled mb-0 text-start">
+                    <li>
+                      <a href="#!" class="text-white">Earum iure maxime </a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">nihil eveniet </a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white"
+                        >id itaque deserunt adipisci</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">ipsa eligendi quia</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase text-start">Links</h5>
 
-                <ul class="list-unstyled mb-0 text-start">
-                  <li>
-                    <a href="#" class="text-white">Earum iure maxime </a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-white">nihil eveniet </a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-white"
-                      >id itaque deserunt adipisci</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="text-white">ipsa eligendi quia</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase text-start">Links</h5>
+                  <ul class="list-unstyled mb-0 text-start">
+                    <li>
+                      <a href="#!" class="text-white">Earum iure maxime </a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">nihil eveniet </a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white"
+                        >id itaque deserunt adipisci</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">ipsa eligendi quia</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase text-start">Links</h5>
 
-                <ul class="list-unstyled mb-0 text-start">
-                  <li>
-                    <a href="#" class="text-white">Earum iure maxime </a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-white">nihil eveniet </a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-white"
-                      >id itaque deserunt adipisci</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="text-white">ipsa eligendi quia</a>
-                  </li>
-                </ul>
+                  <ul class="list-unstyled mb-0 text-start">
+                    <li>
+                      <a href="#!" class="text-white">Earum iure maxime </a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">nihil eveniet </a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white"
+                        >id itaque deserunt adipisci</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">ipsa eligendi quia</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-          </section>
-        </div>
-        <div
-          class="text-center p-3"
-          style="background-color: rgba(0, 0, 0, 0.2)"
-        >
-          © 2023 Copyright:
-          <a class="text-white" href="#">SiteBanqueExemple.com</a>
-        </div>
-      </footer> -->
+            </section>
+          </div>
+          <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+          >
+            © 2024 Copyright:
+            <a class="text-white" href="">mennai-hajar.fr</a>
+          </div>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
