@@ -54,6 +54,9 @@ a {
 .card-hero-text:hover {
   color: white;
 }
+.image {
+  aspect-ratio: 3 / 2;
+}
 
 /* section 2 */
 #bg-img {

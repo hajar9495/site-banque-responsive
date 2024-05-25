@@ -1,0 +1,4 @@
+pagespeed : 
+
+-> colorful element : 
+set width et height --> carousel 
