@@ -16,7 +16,10 @@ images reponsives
 - <link> -> preload
 
 - unused css 
-https://purifycss.online/
+https://purifycss.online/ ?
+https://unused-css.com/ --> payant
+https://purgecss.com/  --> installer le plugin
+
 -> download file 
 -> revoir une version 2 avec le js
 
@@ -24,3 +27,6 @@ js inutilisée???
 https://bundlers.tooling.report/ ???
 
 version 2 : 26/05/24 a 12:35
+
+javascript 
+https://terser.org/
