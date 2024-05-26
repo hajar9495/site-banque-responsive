@@ -10,3 +10,11 @@ images reponsives
 -changement avec https://johnfraney.ca/tools/responsive-image-generator/ 
 - converion des images avec https://cloudconvert.com/jpg-to-webp 
 
+
+-> ressources critique : 
+- <script> avec attribut defer et async, 
+- <link> -> preload
+
+- unused css 
+https://purifycss.online/
+-> download file 
