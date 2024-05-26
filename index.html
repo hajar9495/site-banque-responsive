@@ -238,10 +238,31 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
+                  srcset="
+                    /img/amis-275w.webp   275w,
+                    /img/amis-1060w.webp 1060w,
+                    /img/amis-1480w.webp 1480w,
+                    /img/amis-1790w.webp 1790w,
+                    /img/amis-2048w.webp 2048w
+                  "
+                  sizes="(max-width: 275px) 275px, (max-width: 1060px) 1060px, (max-width: 1480px) 1480px, (max-width: 1790px) 1790px, (min-width: 1791px) 2048px"
+                  src="img/amis.webp"
+                  alt="amis"
+                  loading="lazy"
+                  class="d-block w-100 image"
+                />
+                <!-- <img
                   src="img/amis.jpg"
                   class="d-block w-100 image"
                   alt="amis"
-                />
+                  srcset="
+                    275×183    275w,
+                    1060×707  1060w,
+                    1480×987  1480w,
+                    1790×1193 1790w,
+                    2048×1366 2048w
+                  "
+                /> -->
                 <div
                   class="carousel-caption d-none d-md-block bg-light text-dark rounded"
                 >
@@ -258,10 +279,24 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img
+                <!-- <img
                   src="img/couchedeSoleil.jpg"
                   class="d-block w-100 image"
                   alt="couche de soleil"
+                /> -->
+                <img
+                  srcset="
+                    /img/couchedeSoleil-650w.webp   650w,
+                    /img/couchedeSoleil-1140w.webp 1140w,
+                    /img/couchedeSoleil-1480w.webp 1480w,
+                    /img/couchedeSoleil-1790w.webp 1790w,
+                    /img/couchedeSoleil-2048w.webp 2048w
+                  "
+                  sizes="(max-width: 650px) 650px, (max-width: 1140px) 1060px, (max-width: 1480px) 1480px, (max-width: 1790px) 1790px, (min-width: 1791px) 2048px"
+                  src="img/couchedeSoleil.webp"
+                  alt="amis"
+                  loading="lazy"
+                  class="d-block w-100 image"
                 />
                 <div
                   class="carousel-caption d-none d-md-block bg-light text-dark rounded"
@@ -707,35 +742,19 @@
               <div class="col">
                 <div class="card">
                   <img
-                    src="img/houseInterieur.jpg"
+                    srcset="
+                      /img/houseInterieur-275w.webp   275w,
+                      /img/houseInterieur-960w.webp   960w,
+                      /img/houseInterieur-1360w.webp 1360w,
+                      /img/houseInterieur-1670w.webp 1670w,
+                      /img/houseInterieur-1930w.webp 1930w
+                    "
+                    sizes="(max-width: 275px) 275px, (max-width: 960px) 960px, (max-width: 1360px) 1360px, (max-width: 1670px) 1670px, (min-width: 1791px) 1930px"
+                    src="img/houseInterieur.webp"
+                    alt="maison en interieur"
+                    loading="lazy"
                     class="card-img-top object-fit-cover"
-                    alt="image de maison"
-                    style="height: 200px"
-                  />
-
-                  <div class="card-body">
-                    <p class="card-text text-center">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Nobis architecto error id, iure iusto rem est, eum
-                      perferendis ex quis dolores expedita odit incidunt autem!
-                      Dignissimos iusto, molestias suscipit at, neque aut
-                      incidunt voluptate accusamus eaque reprehenderit quod
-                      praesentium? Neque laborum magnam, corporis cumque
-                      nesciunt iure ea corrupti dolores repellendus.
-                    </p>
-                    <div class="text-end">
-                      <a href="" class="a-section-2">lire la suite</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="img/littleHouse.jpg"
-                    class="card-img-top object-fit-cover"
-                    alt="maison miniature"
-                    style="height: 200px"
+                    height="200px"
                   />
                   <div class="card-body">
                     <p class="card-text text-center">
@@ -756,10 +775,52 @@
               <div class="col">
                 <div class="card">
                   <img
-                    src="img/discussion.jpg"
+                    srcset="
+                      /img/littleHouse-275w.webp   275w,
+                      /img/littleHouse-960w.webp   960w,
+                      /img/littleHouse-1360w.webp 1360w,
+                      /img/littleHouse-1670w.webp 1670w,
+                      /img/littleHouse-1930w.webp 1930w
+                    "
+                    sizes="(max-width: 275px) 275px, (max-width: 960px) 960px, (max-width: 1360px) 1360px, (max-width: 1670px) 1670px, (min-width: 1791px) 1930px"
+                    src="img/littleHouse.webp"
+                    alt="maison en porte clé"
+                    loading="lazy"
                     class="card-img-top object-fit-cover"
-                    alt="discussion"
-                    style="height: 200px"
+                    height="200px"
+                  />
+                  <div class="card-body">
+                    <p class="card-text text-center">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nobis architecto error id, iure iusto rem est, eum
+                      perferendis ex quis dolores expedita odit incidunt autem!
+                      Dignissimos iusto, molestias suscipit at, neque aut
+                      incidunt voluptate accusamus eaque reprehenderit quod
+                      praesentium? Neque laborum magnam, corporis cumque
+                      nesciunt iure ea corrupti dolores repellendus.
+                    </p>
+                    <div class="text-end">
+                      <a href="" class="a-section-2">lire la suite</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    srcset="
+                      /img/discussion-256w.webp   256w,
+                      /img/discussion-960w.webp   960w,
+                      /img/discussion-1360w.webp 1360w,
+                      /img/discussion-1670w.webp 1670w,
+                      /img/discussion-1930w.webp 1930w
+                    "
+                    sizes="(max-width: 256px) 256px, (max-width: 960px) 960px, (max-width: 1360px) 1360px, (max-width: 1670px) 1670px, (min-width: 1791px) 1930px"
+                    src="img/discussion.webp"
+                    alt="disscussion"
+                    loading="lazy"
+                    class="card-img-top object-fit-cover"
+                    height="200px"
                   />
                   <div class="card-body">
                     <p class="card-text text-center">

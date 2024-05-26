@@ -1,0 +1,12 @@
+pagespeed : 
+
+-> colorful element : 
+set width et height --> carousel 
+- ajout d'une classe image avec le ratio-aspect 
+
+->economiser la taille avec les srcset et les sizes (balise img)
+images reponsives
+-avoir les srcset : https://ausi.github.io/respimagelint/ ou extension avec google chrome
+-changement avec https://johnfraney.ca/tools/responsive-image-generator/ 
+- converion des images avec https://cloudconvert.com/jpg-to-webp 
+
