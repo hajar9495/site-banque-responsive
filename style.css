@@ -61,7 +61,7 @@ a {
 /* section 2 */
 #bg-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("img/paysage.jpg");
+    url("img/paysage.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,7 +78,7 @@ a {
 /* section 3 */
 #bg-img1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("img/ordinateur.jpg");
+    url("img/ordinateur.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
