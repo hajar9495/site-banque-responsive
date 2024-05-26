@@ -18,3 +18,9 @@ images reponsives
 - unused css 
 https://purifycss.online/
 -> download file 
+-> revoir une version 2 avec le js
+
+js inutilisée???
+https://bundlers.tooling.report/ ???
+
+version 2 : 26/05/24 a 12:35
