@@ -667,9 +667,6 @@
 .fa-user-lock:before {
   content: "\f502";
 }
-.fa-kit-medical:before {
-  content: "\f479";
-}
 .fa-hands-holding-circle:before {
   content: "\e4fb";
 }
@@ -753,9 +750,6 @@
 .fa-hand-holding:before {
   content: "\f4bd";
 }
-.fa-border-all:before {
-  content: "\f84c";
-}
 .fa-m:before {
   content: "\4d";
 }
@@ -815,9 +809,6 @@
 .fab {
   font-weight: 400;
 }
-.fa-cloudflare:before {
-  content: "\e07d";
-}
 .fa-css3-alt:before {
   content: "\f38b";
 }
@@ -833,9 +824,6 @@
 .fa-google:before {
   content: "\f1a0";
 }
-.fa-font-awesome-alt:before {
-  content: "\f35c";
-}
 .fa-meta:before {
   content: "\e49b";
 }
@@ -844,9 +832,6 @@
 }
 .fa-500px:before {
   content: "\f26e";
-}
-.fa-font-awesome:before {
-  content: "\f2b4";
 }
 .fa-apple:before {
   content: "\f179";
