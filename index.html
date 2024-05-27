@@ -12,7 +12,7 @@
     <link href="bootstrap.css" rel="stylesheet" />
 
     <!-- bootstrap script -->
-    <link rel="preload" href="bootstrap.js" as="script" />
+    <link rel="preconnect" href="bootstrap.js" as="script" />
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
@@ -37,7 +37,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
     <title>Site exemple de banque fait avec Bootstrap - MENNAI Hajar</title>
   </head>
   <body>
@@ -228,7 +227,7 @@
             id="carouselExampleAutoplaying"
             data-bs-ride="carousel"
           >
-            <div class="carousel-inner">
+            <div class="carousel-inner carl">
               <div class="carousel-item active">
                 <img
                   srcset="
@@ -241,21 +240,8 @@
                   sizes="(max-width: 275px) 275px, (max-width: 1060px) 1060px, (max-width: 1480px) 1480px, (max-width: 1790px) 1790px, (min-width: 1791px) 2048px"
                   src="img/amis.webp"
                   alt="amis"
-                  loading="lazy"
                   class="d-block w-100 image"
                 />
-                <!-- <img
-                  src="img/amis.jpg"
-                  class="d-block w-100 image"
-                  alt="amis"
-                  srcset="
-                    275×183    275w,
-                    1060×707  1060w,
-                    1480×987  1480w,
-                    1790×1193 1790w,
-                    2048×1366 2048w
-                  "
-                /> -->
                 <div
                   class="carousel-caption d-none d-md-block bg-light text-dark rounded"
                 >
@@ -287,8 +273,7 @@
                   "
                   sizes="(max-width: 650px) 650px, (max-width: 1140px) 1060px, (max-width: 1480px) 1480px, (max-width: 1790px) 1790px, (min-width: 1791px) 2048px"
                   src="img/couchedeSoleil.webp"
-                  alt="amis"
-                  loading="lazy"
+                  alt="couchée de soleil"
                   class="d-block w-100 image"
                 />
                 <div
@@ -745,7 +730,6 @@
                     sizes="(max-width: 275px) 275px, (max-width: 960px) 960px, (max-width: 1360px) 1360px, (max-width: 1670px) 1670px, (min-width: 1791px) 1930px"
                     src="img/houseInterieur.webp"
                     alt="maison en interieur"
-                    loading="lazy"
                     class="card-img-top object-fit-cover"
                     height="200px"
                   />
@@ -778,7 +762,6 @@
                     sizes="(max-width: 275px) 275px, (max-width: 960px) 960px, (max-width: 1360px) 1360px, (max-width: 1670px) 1670px, (min-width: 1791px) 1930px"
                     src="img/littleHouse.webp"
                     alt="maison en porte clé"
-                    loading="lazy"
                     class="card-img-top object-fit-cover"
                     height="200px"
                   />
@@ -811,7 +794,6 @@
                     sizes="(max-width: 256px) 256px, (max-width: 960px) 960px, (max-width: 1360px) 1360px, (max-width: 1670px) 1670px, (min-width: 1791px) 1930px"
                     src="img/discussion.webp"
                     alt="disscussion"
-                    loading="lazy"
                     class="card-img-top object-fit-cover"
                     height="200px"
                   />

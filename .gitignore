@@ -1,2 +1,3 @@
 # ignorer les images du site
 /img
+node_modules
