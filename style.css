@@ -56,6 +56,7 @@ a {
 }
 .image {
   aspect-ratio: 3 / 2;
+  min-height: fit-content;
 }
 
 /* section 2 */
@@ -114,4 +115,44 @@ a {
 /* section 5 */
 #section-5 {
   min-height: 60vh;
+}
+
+/* responsive design POUR LE CAROUSEL  */
+@media only screen and (max-width: 600px) {
+  .carl {
+    min-height: 280px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .carl {
+    height: 470px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .carl {
+    min-height: 550px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .carl {
+    min-height: 400px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+  .carl {
+    min-height: 611px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 2560px) {
+  .carl {
+    min-height: 850px;
+  }
 }
