@@ -1,21 +1,4 @@
-/*!
- * MDB5
- * Version: FREE 7.2.0
- *
- *
- * Copyright: Material Design for Bootstrap
- * https://mdbootstrap.com/
- *
- * Read the license: https://mdbootstrap.com/general/license/
- *
- *
- * Documentation: https://mdbootstrap.com/docs/standard/
- *
- * Support: https://mdbootstrap.com/support/
- *
- * Contact: contact@mdbootstrap.com
- *
- */
+
 
 !(function (t, e) {
   "object" == typeof exports && "undefined" != typeof module

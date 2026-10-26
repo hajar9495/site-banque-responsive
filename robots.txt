@@ -2,4 +2,4 @@ User-agent: *
 crawl-delay: 10
 
 User-agent: *
-Sitemap: https://banque.mennai-hajar.fr/sitemap.xml
+Sitemap: 
